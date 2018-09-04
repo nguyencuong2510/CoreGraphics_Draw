@@ -9,17 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBOutlet weak var drawView: DrawView!
+    
+    @IBAction func onEraseTapped(sender: UIButton) {
+        drawView.erase()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onOriginTapped(sender: UIButton) {
+        drawView.strokeColor = UIColor.orange.cgColor
     }
 
+    @IBAction func onBlueTapped(sender: UIButton) {
+        drawView.strokeColor = UIColor.blue.cgColor
+    }
+    
+    @IBAction func onGreenTapped(sender: UIButton) {
+        drawView.strokeColor = UIColor.green.cgColor
+    }
 
+    
 }
 

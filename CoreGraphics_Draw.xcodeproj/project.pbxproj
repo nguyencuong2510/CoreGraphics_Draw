@@ -12,6 +12,9 @@
 		841AD7E6213E73D60076D024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841AD7E4213E73D60076D024 /* Main.storyboard */; };
 		841AD7E8213E73D70076D024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841AD7E7213E73D70076D024 /* Assets.xcassets */; };
 		841AD7EB213E73D70076D024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841AD7E9213E73D70076D024 /* LaunchScreen.storyboard */; };
+		841AD7F3213E766B0076D024 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7F2213E766B0076D024 /* ShadowView.swift */; };
+		841AD7F5213E77560076D024 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7F4213E77560076D024 /* DrawView.swift */; };
+		841AD7F7213E7B0F0076D024 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7F6213E7B0F0076D024 /* Stroke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		841AD7E7213E73D70076D024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841AD7EA213E73D70076D024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841AD7EC213E73D70076D024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841AD7F2213E766B0076D024 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		841AD7F4213E77560076D024 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		841AD7F6213E7B0F0076D024 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				841AD7E0213E73D60076D024 /* AppDelegate.swift */,
 				841AD7E2213E73D60076D024 /* ViewController.swift */,
 				841AD7E4213E73D60076D024 /* Main.storyboard */,
+				841AD7F4213E77560076D024 /* DrawView.swift */,
+				841AD7F6213E7B0F0076D024 /* Stroke.swift */,
+				841AD7F2213E766B0076D024 /* ShadowView.swift */,
 				841AD7E7213E73D70076D024 /* Assets.xcassets */,
 				841AD7E9213E73D70076D024 /* LaunchScreen.storyboard */,
 				841AD7EC213E73D70076D024 /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841AD7F3213E766B0076D024 /* ShadowView.swift in Sources */,
 				841AD7E3213E73D60076D024 /* ViewController.swift in Sources */,
+				841AD7F7213E7B0F0076D024 /* Stroke.swift in Sources */,
+				841AD7F5213E77560076D024 /* DrawView.swift in Sources */,
 				841AD7E1213E73D60076D024 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
